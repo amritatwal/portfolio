@@ -1,25 +1,22 @@
 .blurb-container {
-    display: inline-grid;
-    grid-gap: 0px;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
 }
 
 #blurb-text {
-    grid-column: 2;
+    order: 2;
     width: 150px;
     height: auto;
     color: #000000;
     font-family: monospace;
-    border-style: dotted;
-    border-width: thin;
     padding: 10px;
+    margin: 10px;
 }
 
 #profile-img {
-    grid-column: 1;
-    float: left;
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin-right: 10px;
 }
