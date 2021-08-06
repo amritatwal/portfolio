@@ -1,22 +1,31 @@
-.blurb-container {
-    margin-top: 10%;
+body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.blurb {
-    order: 2;
-    width: auto;
-    height: auto;
+.blurb-container {
+    order: 1;
     padding: 10px;
-    margin: 10px;
-    color: #000000;
-    font-family: monospace;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    margin-top: 5%;
+    background:  #6666FF;
+    width: 70%;
+    height: 450px;
+    font-family: arial;
+}
+
+#blurb-img-container {
+    background-color: #e1e1e1;
+    margin-left: 20px;
+    width: 250px;
+    height: 350px;
 }
 
 #profile-img {
-    order: 1;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -24,11 +33,16 @@
     filter: grayscale(100%);
 }
 
-#main-page-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: monospace;
+#links-container {
+    order: 1;
+    margin-top: 10px;
+    width: 70%;
+    height: auto;
+    background: #f3f3d6;
+    color: #696969;
+    font-family: arial;
+    letter-spacing: 1px;
+    padding: 10px;
     text-transform: lowercase;
     letter-spacing: 0.1em;
 }
