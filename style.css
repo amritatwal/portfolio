@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     display: flex;
     margin-top: 5%;
-    background:  #6666FF;
+    background:  #d3c42c;
     width: 70%;
     height: 450px;
 }
@@ -33,7 +33,7 @@ body {
 
 #profile-img {
     width: 100px;
-    height: 100px;
+    height: 10g0px;
     border-radius: 50%;
     margin-top: 10px;
     filter: grayscale(100%);
@@ -48,7 +48,7 @@ body {
 #blurb-details, #blurb-name {
     text-align: right;
     padding-right: 10px;
-    color: #282A35;
+    color: white;
     text-transform: lowercase;
 }
 
@@ -70,8 +70,8 @@ body {
     margin-top: 10px;
     width: 70%;
     height: auto;
-    background: #f3f3d6;
-    color: #282A35;
+    background: #4a4a4a;
+    color: #f0f4e8;
     letter-spacing: 1px;
     padding: 10px;
     text-transform: lowercase;
